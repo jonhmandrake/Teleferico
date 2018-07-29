@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0013CD3E210C0ECB00A429B1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0013CD3D210C0ECB00A429B1 /* MenuViewController.swift */; };
+		0013CD40210C0EFF00A429B1 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0013CD3F210C0EFF00A429B1 /* MenuTableViewCell.swift */; };
+		0013CD46210C23F900A429B1 /* RealidadAumentadaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0013CD45210C23F900A429B1 /* RealidadAumentadaViewController.swift */; };
+		0013CD48210CB64000A429B1 /* AcercaWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0013CD47210CB63F00A429B1 /* AcercaWebViewController.swift */; };
+		0013CD4A210CD0B900A429B1 /* AcerdadeStaticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0013CD49210CD0B700A429B1 /* AcerdadeStaticViewController.swift */; };
+		0013CD4C210CD2E000A429B1 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 0013CD4B210CD2DD00A429B1 /* Fonts */; };
+		0013CD4E210CF05000A429B1 /* IdiomasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0013CD4D210CF04D00A429B1 /* IdiomasViewController.swift */; };
+		0013CD52210D3F7800A429B1 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0013CD51210D3F7600A429B1 /* ArcGIS.bundle */; };
+		0013CD54210D421A00A429B1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0013CD53210D421700A429B1 /* Podfile */; };
+		0013CD56210D442000A429B1 /* ArcGIS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0013CD55210D441D00A429B1 /* ArcGIS.framework */; };
+		009794F5210B921500C0F3DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009794F4210B921500C0F3DC /* AppDelegate.swift */; };
+		009794F7210B921500C0F3DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009794F6210B921500C0F3DC /* ViewController.swift */; };
+		009794FA210B921500C0F3DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009794F8210B921500C0F3DC /* Main.storyboard */; };
+		009794FC210B922F00C0F3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009794FB210B922F00C0F3DC /* Assets.xcassets */; };
+		009794FF210B923000C0F3DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009794FD210B923000C0F3DC /* LaunchScreen.storyboard */; };
+		0097950A210B923100C0F3DC /* TelefericoMadridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00979509210B923100C0F3DC /* TelefericoMadridTests.swift */; };
+		00979515210B923100C0F3DC /* TelefericoMadridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00979514210B923100C0F3DC /* TelefericoMadridUITests.swift */; };
+		00CDBCC3210D597B002221C0 /* DisplayMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CDBCC1210D5977002221C0 /* DisplayMapViewController.swift */; };
+		00CDBCC5210D5B10002221C0 /* ArcGIS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0013CD55210D441D00A429B1 /* ArcGIS.framework */; };
+		00CDBCC6210D5B10002221C0 /* ArcGIS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0013CD55210D441D00A429B1 /* ArcGIS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		00CDBCCB210D72F9002221C0 /* CustomContextSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CDBCCA210D72F7002221C0 /* CustomContextSheet.swift */; };
+		00CDBCE6210D79B1002221C0 /* Map loaded in Resources */ = {isa = PBXBuildFile; fileRef = 00CDBCE5210D79AD002221C0 /* Map loaded */; };
+		00E1C17F210E45BF0000DE30 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E1C17E210E45BF0000DE30 /* SWRevealViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00979506210B923100C0F3DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 009794E9210B921400C0F3DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 009794F0210B921400C0F3DC;
+			remoteInfo = TelefericoMadrid;
+		};
+		00979511210B923100C0F3DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 009794E9210B921400C0F3DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 009794F0210B921400C0F3DC;
+			remoteInfo = TelefericoMadrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00CDBCC7210D5B11002221C0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				00CDBCC6210D5B10002221C0 /* ArcGIS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0013CD39210B995500A429B1 /* TelefericoMadrid-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TelefericoMadrid-Bridging-Header.h"; sourceTree = "<group>"; };
+		0013CD3D210C0ECB00A429B1 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0013CD3F210C0EFF00A429B1 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		0013CD45210C23F900A429B1 /* RealidadAumentadaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RealidadAumentadaViewController.swift; path = /Users/davidgarridogarrido/Desktop/Teleferico/TelefericoMadrid/TelefericoMadrid/RealidadAumentadaViewController.swift; sourceTree = "<absolute>"; };
+		0013CD47210CB63F00A429B1 /* AcercaWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AcercaWebViewController.swift; path = /Users/davidgarridogarrido/Desktop/Teleferico/TelefericoMadrid/TelefericoMadrid/AcercaWebViewController.swift; sourceTree = "<absolute>"; };
+		0013CD49210CD0B700A429B1 /* AcerdadeStaticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AcerdadeStaticViewController.swift; path = /Users/davidgarridogarrido/Desktop/Teleferico/TelefericoMadrid/TelefericoMadrid/AcerdadeStaticViewController.swift; sourceTree = "<absolute>"; };
+		0013CD4B210CD2DD00A429B1 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = TelefericoMadrid/Assets.xcassets/Fonts; sourceTree = "<group>"; };
+		0013CD4D210CF04D00A429B1 /* IdiomasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IdiomasViewController.swift; path = /Users/davidgarridogarrido/Desktop/Teleferico/TelefericoMadrid/TelefericoMadrid/IdiomasViewController.swift; sourceTree = "<absolute>"; };
+		0013CD51210D3F7600A429B1 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = ../../../Library/SDKs/ArcGIS/iOS/Frameworks/Static/ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<group>"; };
+		0013CD53210D421700A429B1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		0013CD55210D441D00A429B1 /* ArcGIS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArcGIS.framework; path = ../../../Library/SDKs/ArcGIS/iOS/Frameworks/Dynamic/ArcGIS.framework; sourceTree = "<group>"; };
+		009794F1210B921500C0F3DC /* TelefericoMadrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelefericoMadrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		009794F4210B921500C0F3DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		009794F6210B921500C0F3DC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; };
+		009794F9210B921500C0F3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		009794FB210B922F00C0F3DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		009794FE210B923000C0F3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00979500210B923000C0F3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00979505210B923100C0F3DC /* TelefericoMadridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelefericoMadridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00979509210B923100C0F3DC /* TelefericoMadridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefericoMadridTests.swift; sourceTree = "<group>"; };
+		0097950B210B923100C0F3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00979510210B923100C0F3DC /* TelefericoMadridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelefericoMadridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00979514210B923100C0F3DC /* TelefericoMadridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefericoMadridUITests.swift; sourceTree = "<group>"; };
+		00979516210B923100C0F3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00CDBCC1210D5977002221C0 /* DisplayMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplayMapViewController.swift; path = "../../../Downloads/arcgis-runtime-samples-ios-master/arcgis-ios-sdk-samples/Maps/Display a map/DisplayMapViewController.swift"; sourceTree = "<group>"; };
+		00CDBCCA210D72F7002221C0 /* CustomContextSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContextSheet.swift; sourceTree = "<group>"; };
+		00CDBCD0210D795D002221C0 /* DemoTouchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTouchView.swift; sourceTree = "<group>"; };
+		00CDBCD2210D795D002221C0 /* ExpandableTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExpandableTableViewController.storyboard; sourceTree = "<group>"; };
+		00CDBCD3210D795D002221C0 /* ExpandableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableTableViewController.swift; sourceTree = "<group>"; };
+		00CDBCD4210D795D002221C0 /* ExpandableTableViewImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ExpandableTableViewImages.xcassets; sourceTree = "<group>"; };
+		00CDBCD6210D795D002221C0 /* HorizontalColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalColorPicker.swift; sourceTree = "<group>"; };
+		00CDBCD7210D795D002221C0 /* HorizontalColorPicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalColorPicker.xib; sourceTree = "<group>"; };
+		00CDBCD8210D795D002221C0 /* HorizontalPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalPicker.swift; sourceTree = "<group>"; };
+		00CDBCD9210D795D002221C0 /* HorizontalPicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalPicker.xib; sourceTree = "<group>"; };
+		00CDBCDB210D795D002221C0 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		00CDBCDC210D795D002221C0 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		00CDBCDD210D795D002221C0 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		00CDBCDE210D795D002221C0 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		00CDBCDF210D795D002221C0 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		00CDBCE0210D795D002221C0 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		00CDBCE1210D795D002221C0 /* SVProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		00CDBCE2210D795D002221C0 /* SVProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		00CDBCE3210D795D002221C0 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		00CDBCE4210D795D002221C0 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		00CDBCE5210D79AD002221C0 /* Map loaded */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Map loaded"; path = "../../../Downloads/arcgis-runtime-samples-ios-master/arcgis-ios-sdk-samples/Maps/Map loaded"; sourceTree = "<group>"; };
+		00E1C17D210E45BF0000DE30 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		00E1C17E210E45BF0000DE30 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		009794EE210B921400C0F3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0013CD56210D442000A429B1 /* ArcGIS.framework in Frameworks */,
+				00CDBCC5210D5B10002221C0 /* ArcGIS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00979502210B923100C0F3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0097950D210B923100C0F3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009794E8210B921400C0F3DC = {
+			isa = PBXGroup;
+			children = (
+				00CDBCE5210D79AD002221C0 /* Map loaded */,
+				00CDBCC1210D5977002221C0 /* DisplayMapViewController.swift */,
+				0013CD55210D441D00A429B1 /* ArcGIS.framework */,
+				0013CD53210D421700A429B1 /* Podfile */,
+				0013CD51210D3F7600A429B1 /* ArcGIS.bundle */,
+				0013CD4B210CD2DD00A429B1 /* Fonts */,
+				009794F3210B921500C0F3DC /* TelefericoMadrid */,
+				00979508210B923100C0F3DC /* TelefericoMadridTests */,
+				00979513210B923100C0F3DC /* TelefericoMadridUITests */,
+				009794F2210B921500C0F3DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		009794F2210B921500C0F3DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				009794F1210B921500C0F3DC /* TelefericoMadrid.app */,
+				00979505210B923100C0F3DC /* TelefericoMadridTests.xctest */,
+				00979510210B923100C0F3DC /* TelefericoMadridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		009794F3210B921500C0F3DC /* TelefericoMadrid */ = {
+			isa = PBXGroup;
+			children = (
+				00E1C17D210E45BF0000DE30 /* SWRevealViewController.h */,
+				00E1C17E210E45BF0000DE30 /* SWRevealViewController.m */,
+				00CDBCCE210D795D002221C0 /* Libraries */,
+				00CDBCCA210D72F7002221C0 /* CustomContextSheet.swift */,
+				0013CD4D210CF04D00A429B1 /* IdiomasViewController.swift */,
+				0013CD49210CD0B700A429B1 /* AcerdadeStaticViewController.swift */,
+				0013CD47210CB63F00A429B1 /* AcercaWebViewController.swift */,
+				0013CD45210C23F900A429B1 /* RealidadAumentadaViewController.swift */,
+				009794F4210B921500C0F3DC /* AppDelegate.swift */,
+				009794F6210B921500C0F3DC /* ViewController.swift */,
+				009794F8210B921500C0F3DC /* Main.storyboard */,
+				0013CD3D210C0ECB00A429B1 /* MenuViewController.swift */,
+				0013CD3F210C0EFF00A429B1 /* MenuTableViewCell.swift */,
+				009794FB210B922F00C0F3DC /* Assets.xcassets */,
+				009794FD210B923000C0F3DC /* LaunchScreen.storyboard */,
+				00979500210B923000C0F3DC /* Info.plist */,
+				0013CD39210B995500A429B1 /* TelefericoMadrid-Bridging-Header.h */,
+			);
+			path = TelefericoMadrid;
+			sourceTree = "<group>";
+		};
+		00979508210B923100C0F3DC /* TelefericoMadridTests */ = {
+			isa = PBXGroup;
+			children = (
+				00979509210B923100C0F3DC /* TelefericoMadridTests.swift */,
+				0097950B210B923100C0F3DC /* Info.plist */,
+			);
+			path = TelefericoMadridTests;
+			sourceTree = "<group>";
+		};
+		00979513210B923100C0F3DC /* TelefericoMadridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00979514210B923100C0F3DC /* TelefericoMadridUITests.swift */,
+				00979516210B923100C0F3DC /* Info.plist */,
+			);
+			path = TelefericoMadridUITests;
+			sourceTree = "<group>";
+		};
+		00CDBCCE210D795D002221C0 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				00CDBCCF210D795D002221C0 /* DemoTouchView */,
+				00CDBCD1210D795D002221C0 /* ExpandableTableViewController */,
+				00CDBCD5210D795D002221C0 /* HorizontalPicker */,
+				00CDBCDA210D795D002221C0 /* SVProgressHUD */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		00CDBCCF210D795D002221C0 /* DemoTouchView */ = {
+			isa = PBXGroup;
+			children = (
+				00CDBCD0210D795D002221C0 /* DemoTouchView.swift */,
+			);
+			path = DemoTouchView;
+			sourceTree = "<group>";
+		};
+		00CDBCD1210D795D002221C0 /* ExpandableTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00CDBCD2210D795D002221C0 /* ExpandableTableViewController.storyboard */,
+				00CDBCD3210D795D002221C0 /* ExpandableTableViewController.swift */,
+				00CDBCD4210D795D002221C0 /* ExpandableTableViewImages.xcassets */,
+			);
+			path = ExpandableTableViewController;
+			sourceTree = "<group>";
+		};
+		00CDBCD5210D795D002221C0 /* HorizontalPicker */ = {
+			isa = PBXGroup;
+			children = (
+				00CDBCD6210D795D002221C0 /* HorizontalColorPicker.swift */,
+				00CDBCD7210D795D002221C0 /* HorizontalColorPicker.xib */,
+				00CDBCD8210D795D002221C0 /* HorizontalPicker.swift */,
+				00CDBCD9210D795D002221C0 /* HorizontalPicker.xib */,
+			);
+			path = HorizontalPicker;
+			sourceTree = "<group>";
+		};
+		00CDBCDA210D795D002221C0 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				00CDBCDB210D795D002221C0 /* SVIndefiniteAnimatedView.h */,
+				00CDBCDC210D795D002221C0 /* SVIndefiniteAnimatedView.m */,
+				00CDBCDD210D795D002221C0 /* SVProgressAnimatedView.h */,
+				00CDBCDE210D795D002221C0 /* SVProgressAnimatedView.m */,
+				00CDBCDF210D795D002221C0 /* SVProgressHUD-Prefix.pch */,
+				00CDBCE0210D795D002221C0 /* SVProgressHUD.bundle */,
+				00CDBCE1210D795D002221C0 /* SVProgressHUD.h */,
+				00CDBCE2210D795D002221C0 /* SVProgressHUD.m */,
+				00CDBCE3210D795D002221C0 /* SVRadialGradientLayer.h */,
+				00CDBCE4210D795D002221C0 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		009794F0210B921400C0F3DC /* TelefericoMadrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00979519210B923100C0F3DC /* Build configuration list for PBXNativeTarget "TelefericoMadrid" */;
+			buildPhases = (
+				009794ED210B921400C0F3DC /* Sources */,
+				009794EE210B921400C0F3DC /* Frameworks */,
+				009794EF210B921400C0F3DC /* Resources */,
+				00CDBCC7210D5B11002221C0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelefericoMadrid;
+			productName = TelefericoMadrid;
+			productReference = 009794F1210B921500C0F3DC /* TelefericoMadrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00979504210B923100C0F3DC /* TelefericoMadridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0097951C210B923100C0F3DC /* Build configuration list for PBXNativeTarget "TelefericoMadridTests" */;
+			buildPhases = (
+				00979501210B923100C0F3DC /* Sources */,
+				00979502210B923100C0F3DC /* Frameworks */,
+				00979503210B923100C0F3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00979507210B923100C0F3DC /* PBXTargetDependency */,
+			);
+			name = TelefericoMadridTests;
+			productName = TelefericoMadridTests;
+			productReference = 00979505210B923100C0F3DC /* TelefericoMadridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0097950F210B923100C0F3DC /* TelefericoMadridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0097951F210B923100C0F3DC /* Build configuration list for PBXNativeTarget "TelefericoMadridUITests" */;
+			buildPhases = (
+				0097950C210B923100C0F3DC /* Sources */,
+				0097950D210B923100C0F3DC /* Frameworks */,
+				0097950E210B923100C0F3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00979512210B923100C0F3DC /* PBXTargetDependency */,
+			);
+			name = TelefericoMadridUITests;
+			productName = TelefericoMadridUITests;
+			productReference = 00979510210B923100C0F3DC /* TelefericoMadridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		009794E9210B921400C0F3DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "David Garrido Garrido";
+				TargetAttributes = {
+					009794F0210B921400C0F3DC = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					00979504210B923100C0F3DC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 009794F0210B921400C0F3DC;
+					};
+					0097950F210B923100C0F3DC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 009794F0210B921400C0F3DC;
+					};
+				};
+			};
+			buildConfigurationList = 009794EC210B921400C0F3DC /* Build configuration list for PBXProject "TelefericoMadrid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 009794E8210B921400C0F3DC;
+			productRefGroup = 009794F2210B921500C0F3DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				009794F0210B921400C0F3DC /* TelefericoMadrid */,
+				00979504210B923100C0F3DC /* TelefericoMadridTests */,
+				0097950F210B923100C0F3DC /* TelefericoMadridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		009794EF210B921400C0F3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CDBCE6210D79B1002221C0 /* Map loaded in Resources */,
+				0013CD54210D421A00A429B1 /* Podfile in Resources */,
+				0013CD4C210CD2E000A429B1 /* Fonts in Resources */,
+				009794FF210B923000C0F3DC /* LaunchScreen.storyboard in Resources */,
+				009794FC210B922F00C0F3DC /* Assets.xcassets in Resources */,
+				009794FA210B921500C0F3DC /* Main.storyboard in Resources */,
+				0013CD52210D3F7800A429B1 /* ArcGIS.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00979503210B923100C0F3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0097950E210B923100C0F3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		009794ED210B921400C0F3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CDBCCB210D72F9002221C0 /* CustomContextSheet.swift in Sources */,
+				009794F7210B921500C0F3DC /* ViewController.swift in Sources */,
+				0013CD4A210CD0B900A429B1 /* AcerdadeStaticViewController.swift in Sources */,
+				0013CD46210C23F900A429B1 /* RealidadAumentadaViewController.swift in Sources */,
+				0013CD48210CB64000A429B1 /* AcercaWebViewController.swift in Sources */,
+				0013CD4E210CF05000A429B1 /* IdiomasViewController.swift in Sources */,
+				009794F5210B921500C0F3DC /* AppDelegate.swift in Sources */,
+				00CDBCC3210D597B002221C0 /* DisplayMapViewController.swift in Sources */,
+				00E1C17F210E45BF0000DE30 /* SWRevealViewController.m in Sources */,
+				0013CD3E210C0ECB00A429B1 /* MenuViewController.swift in Sources */,
+				0013CD40210C0EFF00A429B1 /* MenuTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00979501210B923100C0F3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0097950A210B923100C0F3DC /* TelefericoMadridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0097950C210B923100C0F3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00979515210B923100C0F3DC /* TelefericoMadridUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00979507210B923100C0F3DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 009794F0210B921400C0F3DC /* TelefericoMadrid */;
+			targetProxy = 00979506210B923100C0F3DC /* PBXContainerItemProxy */;
+		};
+		00979512210B923100C0F3DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 009794F0210B921400C0F3DC /* TelefericoMadrid */;
+			targetProxy = 00979511210B923100C0F3DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		009794F8210B921500C0F3DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009794F9210B921500C0F3DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		009794FD210B923000C0F3DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009794FE210B923000C0F3DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00979517210B923100C0F3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00979518210B923100C0F3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0097951A210B923100C0F3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EY363YUV94;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/SDKs/ArcGIS/iOS/Frameworks/Dynamic",
+				);
+				INFOPLIST_FILE = TelefericoMadrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.emtmadrid.TelefericoMadrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TelefericoMadrid/TelefericoMadrid-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/macOS/Frameworks/Static";
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0097951B210B923100C0F3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EY363YUV94;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/SDKs/ArcGIS/iOS/Frameworks/Dynamic",
+				);
+				INFOPLIST_FILE = TelefericoMadrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.emtmadrid.TelefericoMadrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TelefericoMadrid/TelefericoMadrid-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/macOS/Frameworks/Static";
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0097951D210B923100C0F3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelefericoMadridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.emtmadrid.TelefericoMadridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelefericoMadrid.app/TelefericoMadrid";
+			};
+			name = Debug;
+		};
+		0097951E210B923100C0F3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelefericoMadridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.emtmadrid.TelefericoMadridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelefericoMadrid.app/TelefericoMadrid";
+			};
+			name = Release;
+		};
+		00979520210B923100C0F3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelefericoMadridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.emtmadrid.TelefericoMadridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TelefericoMadrid;
+			};
+			name = Debug;
+		};
+		00979521210B923100C0F3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelefericoMadridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.emtmadrid.TelefericoMadridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TelefericoMadrid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		009794EC210B921400C0F3DC /* Build configuration list for PBXProject "TelefericoMadrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00979517210B923100C0F3DC /* Debug */,
+				00979518210B923100C0F3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00979519210B923100C0F3DC /* Build configuration list for PBXNativeTarget "TelefericoMadrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0097951A210B923100C0F3DC /* Debug */,
+				0097951B210B923100C0F3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0097951C210B923100C0F3DC /* Build configuration list for PBXNativeTarget "TelefericoMadridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0097951D210B923100C0F3DC /* Debug */,
+				0097951E210B923100C0F3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0097951F210B923100C0F3DC /* Build configuration list for PBXNativeTarget "TelefericoMadridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00979520210B923100C0F3DC /* Debug */,
+				00979521210B923100C0F3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 009794E9210B921400C0F3DC /* Project object */;
+}
