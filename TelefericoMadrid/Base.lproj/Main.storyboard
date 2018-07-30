@@ -99,7 +99,7 @@
                                 </connections>
                             </tableView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="acerca_blanco_150" translatesAutoresizingMaskIntoConstraints="NO" id="CKR-OC-12J">
-                                <rect key="frame" x="0.0" y="409" width="286" height="171"/>
+                                <rect key="frame" x="70" y="470" width="232" height="139"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="CKR-OC-12J" secondAttribute="height" multiplier="286:171" id="OAF-Td-UX8"/>
                                 </constraints>
@@ -108,14 +108,11 @@
                         <color key="backgroundColor" red="0.0" green="0.44705882349999998" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="CKR-OC-12J" firstAttribute="leading" secondItem="vml-fF-0vk" secondAttribute="leading" id="0CF-tQ-BDv"/>
                             <constraint firstItem="DS4-Pn-YRd" firstAttribute="trailing" secondItem="vml-fF-0vk" secondAttribute="trailing" id="4wI-0h-UTc"/>
-                            <constraint firstItem="CKR-OC-12J" firstAttribute="top" secondItem="vml-fF-0vk" secondAttribute="top" constant="389" id="5ar-HG-pXt"/>
-                            <constraint firstItem="vml-fF-0vk" firstAttribute="bottom" secondItem="CKR-OC-12J" secondAttribute="bottom" constant="87" id="eZh-n9-qqc"/>
+                            <constraint firstItem="vml-fF-0vk" firstAttribute="bottom" secondItem="CKR-OC-12J" secondAttribute="bottom" constant="58" id="KPX-4Q-dSJ"/>
+                            <constraint firstItem="vml-fF-0vk" firstAttribute="trailing" secondItem="CKR-OC-12J" secondAttribute="trailing" constant="73" id="Vrv-Fh-N5v"/>
                             <constraint firstItem="DS4-Pn-YRd" firstAttribute="bottom" secondItem="vml-fF-0vk" secondAttribute="bottom" id="gxg-pn-2ut"/>
                             <constraint firstItem="DS4-Pn-YRd" firstAttribute="top" secondItem="vml-fF-0vk" secondAttribute="top" id="hi9-2G-YPs"/>
-                            <constraint firstItem="vml-fF-0vk" firstAttribute="trailing" secondItem="CKR-OC-12J" secondAttribute="trailing" constant="89" id="yQD-sy-2eZ"/>
-                            <constraint firstItem="CKR-OC-12J" firstAttribute="leading" secondItem="vml-fF-0vk" secondAttribute="leading" id="zPB-tQ-df6"/>
                             <constraint firstItem="DS4-Pn-YRd" firstAttribute="leading" secondItem="vml-fF-0vk" secondAttribute="leading" id="zcD-zK-uGj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vml-fF-0vk"/>
@@ -333,14 +330,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="pie_telefericomadrid" translatesAutoresizingMaskIntoConstraints="NO" id="IaZ-h4-kw1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pie_telefericomadrid" translatesAutoresizingMaskIntoConstraints="NO" id="IaZ-h4-kw1">
                                 <rect key="frame" x="0.0" y="562" width="375" height="115"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="IaZ-h4-kw1" secondAttribute="height" multiplier="75:23" id="QS0-oR-dQW"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n4Z-UP-mSb">
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n4Z-UP-mSb">
                                 <rect key="frame" x="158" y="148" width="58" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="english_disable"/>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gwm-yi-HCE">
@@ -352,7 +350,7 @@
                         <color key="backgroundColor" red="0.0" green="0.44705882349999998" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="IaZ-h4-kw1" secondAttribute="trailing" id="Fgi-Ux-v6V"/>
-                            <constraint firstItem="IaZ-h4-kw1" firstAttribute="top" secondItem="n4Z-UP-mSb" secondAttribute="bottom" constant="335" id="I5g-9T-Sqd"/>
+                            <constraint firstAttribute="bottom" secondItem="IaZ-h4-kw1" secondAttribute="bottom" constant="-10" id="gWD-wS-0p0"/>
                             <constraint firstItem="IaZ-h4-kw1" firstAttribute="leading" secondItem="ygB-Cl-q3T" secondAttribute="leading" id="ver-sv-xYg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ygB-Cl-q3T"/>
@@ -379,9 +377,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mapa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ean-vg-Vb9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Mapa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ean-vg-Vb9">
                                 <rect key="frame" x="0.0" y="64" width="189" height="146"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -418,6 +415,7 @@
                             <constraint firstItem="Kak-Bp-Q6C" firstAttribute="trailing" secondItem="SxD-1b-fjB" secondAttribute="trailing" id="Hnn-Dv-6dI"/>
                             <constraint firstItem="Kak-Bp-Q6C" firstAttribute="bottom" secondItem="SxD-1b-fjB" secondAttribute="bottom" id="Obs-Q1-itg"/>
                             <constraint firstItem="1WF-b4-dtD" firstAttribute="leading" secondItem="SxD-1b-fjB" secondAttribute="leading" id="TQJ-6Q-4pc"/>
+                            <constraint firstItem="mSN-bo-CWM" firstAttribute="top" secondItem="Ean-vg-Vb9" secondAttribute="bottom" constant="76" id="Tqc-73-Ge6"/>
                             <constraint firstItem="1WF-b4-dtD" firstAttribute="trailing" secondItem="SxD-1b-fjB" secondAttribute="trailing" id="ZED-cF-zfE"/>
                             <constraint firstItem="Kak-Bp-Q6C" firstAttribute="leading" secondItem="SxD-1b-fjB" secondAttribute="leading" id="eem-44-sza"/>
                             <constraint firstItem="Kak-Bp-Q6C" firstAttribute="bottom" secondItem="SxD-1b-fjB" secondAttribute="bottom" id="v1e-M5-s2q"/>
@@ -434,6 +432,7 @@
                         <outlet property="bannerLabel" destination="mSN-bo-CWM" id="eix-sv-weW"/>
                         <outlet property="btnMenuButton" destination="6ap-ka-t9X" id="S82-pa-O8h"/>
                         <outlet property="mapView" destination="Kak-Bp-Q6C" id="Kvd-eO-eHX"/>
+                        <outlet property="statusMapLabel" destination="mSN-bo-CWM" id="gBo-7j-xp6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kDN-sT-7se" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -465,8 +464,8 @@
         <image name="acerca_blanco_150" width="150" height="139"/>
         <image name="acerca_negro_logo" width="200" height="185"/>
         <image name="english_disable" width="120" height="79"/>
-        <image name="mapa_ic" width="96" height="96"/>
-        <image name="menu" width="96" height="96"/>
+        <image name="mapa_ic" width="48" height="48"/>
+        <image name="menu" width="64" height="64"/>
         <image name="pie_telefericomadrid" width="1380" height="424"/>
         <image name="spanish_enable" width="120" height="79"/>
     </resources>

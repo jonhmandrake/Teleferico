@@ -23,6 +23,7 @@ class ViewController: UIViewController, CustomContextSheetDelegate  {
     var portalItem:AGSPortalItem!
     var map:AGSMap!
     private var sheet:CustomContextSheet!
+    @IBOutlet weak var statusMapLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,8 +38,11 @@ class ViewController: UIViewController, CustomContextSheetDelegate  {
         let m=AGSPortalItem(portal: portalMap, itemID: "5151efdefa5240adb379b8ba4cb4972d")
         
         //initialize map with a basemap
-        let map = AGSMap(item: m)
-        self.mapView.map = map
+        self.map = AGSMap(item: m)
+        self.mapView.map = self.map
+        
+        self.bannerLabel.text = "Load status : viewDidLoad"
+        
         self.mapView.locationDisplay.autoPanModeChangedHandler = { [weak self] (autoPanMode:AGSLocationDisplayAutoPanMode) in
             DispatchQueue.main.async {
                 self?.sheet.selectedIndex = autoPanMode.rawValue + 1
@@ -53,7 +57,18 @@ class ViewController: UIViewController, CustomContextSheetDelegate  {
         //assign the map to the map view
         self.map?.addObserver(self, forKeyPath: "loadStatus", options: .new, context: nil)
         
+        //Create graphics overlay and add it to map view
+        let graphicsOverlay = AGSGraphicsOverlay()
+        self.mapView.graphicsOverlays.add(graphicsOverlay)
+
+        let point1 = AGSPoint(x:-3.741429 , y: 40.425283, spatialReference: AGSSpatialReference.wgs84())
     
+        let pointSymbol = AGSSimpleMarkerSymbol(style: .circle, color: UIColor.orange, size: 10.0)
+        pointSymbol.outline = AGSSimpleLineSymbol(style: .solid, color: UIColor.blue, width: 2.0)
+        let pointGraphic = AGSGraphic(geometry: point1, symbol: pointSymbol, attributes: nil)
+        graphicsOverlay.graphics.add(pointGraphic)
+        
+        //pointGraphic.graphicsOverlay.
     }
         
         
@@ -102,6 +117,7 @@ class ViewController: UIViewController, CustomContextSheetDelegate  {
     
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         
+        self.bannerLabel.text = "Load status : en observer"
         //update the banner label on main thread
         DispatchQueue.main.async { [weak self] in
             
